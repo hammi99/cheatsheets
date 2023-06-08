@@ -41,13 +41,13 @@ world
 
 ## escape sequences
 ```python3
-'ABCDE\'FGH'	        # >> ABCDE'FGH
+'ABCDE\'FGH'          # >> ABCDE'FGH
 'ABCDE\\FGH'          # >> ABCDE\FGH	
 'ABCDE\bFGH'          # >> ABCDFGH          (backspace)
-'ABCDE\rFGH'	        # >> FGHDE            (carriage return)	
-'ABCDE\fFGH'	        # >> ABCDE FGH        (form feed)	
-'ABCDE\tFGH'	        # >> ABCDE  FGH       (tab)
-'ABCDE\nFGH'   	      # >> ABCDE            (new line)	
+'ABCDE\rFGH'          # >> FGHDE            (carriage return)	
+'ABCDE\fFGH'          # >> ABCDE FGH        (form feed)	
+'ABCDE\tFGH'          # >> ABCDE  FGH       (tab)
+'ABCDE\nFGH'          # >> ABCDE            (new line)	
                       #    FGH
 
 '\101\102\103'        # >> ABC              (octal notation)
@@ -55,7 +55,10 @@ world
 '\u0041\u0042\u0043'  # >> ABC              (unicode notation)
 ```
 
-## r-string (ignores escape sequences) (error if last character is '\')
+## r-string 
+ignores escape sequences 
+
+error if last character is '\'
 ```python3
 r'raw string'         # >> raw string
 r'ABCDE\nFGH'         # >> ABCDE\nFGH
