@@ -1,9 +1,11 @@
-https://www.w3schools.io/file/markdown-introduction/
+https://www.w3schools.io/file/markdown-introduction/  \
+https://www.markdowntutorial.com/
 
 # comments
 ```markdown
 <!-- inside comment -->
 ```
+
 
 # text formatting
 ```markdown
@@ -12,6 +14,28 @@ regular text
 _italic text_
 ~~strikethrough text~~
 `code element`
+```
+
+
+# line break
+```markdown
+line1 \ 
+line2
+```
+
+
+# code block
+```markdown
+```python3
+print('line 1')
+print('line 2') ```
+```
+
+
+# blockquotes
+```markdown
+> block text
+>> nested text
 ```
 
 
@@ -62,36 +86,24 @@ heading2 example
 |data10   |data11   |data12
 ```
 
+
 # link
 ```markdown
 [Link text](url)
-[Link text](url "link title")
+[Link text](url "title")
 [Link text][refrence]
 
 [refrence]: url
-[refrence]: url "title text"
+[refrence]: url "title"
 ```
 
-# blockquotes
-```markdown
-> block text
->> nested text
-```
 
 # images
 ```markdown
-![alt text](image url "image title")
-```
+![alt text](url)
+![alt text](url "title")
+![alt text][refrence]
 
-# line break
-```markdown
-line1 \ 
-line2
-```
-
-# code block
-```markdown
-```language name
-code 
-```
+[refrence]: url
+[refrence]: url "title"
 ```
