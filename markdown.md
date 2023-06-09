@@ -7,6 +7,7 @@ https://www.w3schools.io/file/markdown-introduction/
 https://www.markdowntutorial.com/
 https://www.markdownguide.org/cheat-sheet/
 https://github.github.com/gfm/
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  -->
 
 # Github flavoured Markdown
