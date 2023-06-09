@@ -15,17 +15,17 @@ https://github.github.com/gfm/
 
 * [comments](#comments)
 * [text formatting](#text-formatting)
-* line break
-* code block
-* block quotes
-* headings
-* lists
+* [line break](#line-break)
+* [code block](#code-block)
+* [blockquotes](#blockquotes)
+* [headings](#headings)
+* [lists](#lists)
   * [ordered](#ordered)
   * [unordered](#unordered)
-* tables
-* links
-* images
-* horizontal rule
+* [tables](#tables)
+* [links](#links)
+* [images](#images)
+* [horizontal rule](#horizontal-rule)
 
 # comments
 ```markdown
@@ -103,14 +103,13 @@ heading2
 ```markdown
 * item 1
 * item 2
+ * nested item
+* item 3
 ```
 ```markdown
 - item 1
-- item 2
-```
-```markdown
 + item 1
-+ item 2
+* item 1
 ```
 
 
