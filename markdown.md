@@ -1,5 +1,31 @@
-https://www.w3schools.io/file/markdown-introduction/  \
+<!-- 
+things to confirm ~~~what is this?~~~
+
+
+links:
+https://www.w3schools.io/file/markdown-introduction/  
 https://www.markdowntutorial.com/
+https://www.markdownguide.org/cheat-sheet/
+https://github.github.com/gfm/
+ -->
+
+# Github flavoured Markdown
+
+## index
+
+* [comments](#comments)
+* [text formatting](#text-formatting)
+* line break
+* code block
+* block quotes
+* headings
+* lists
+  * [ordered](#ordered)
+  * [unordered](#unordered)
+* tables
+* links
+* images
+* horizontal rule
 
 # comments
 ```markdown
@@ -12,7 +38,8 @@ https://www.markdowntutorial.com/
 regular text
 **bold text**
 _italic text_
-~~strikethrough text~~
+*italic text*
+~strikethrough text~
 `code element`
 ```
 
@@ -22,15 +49,24 @@ _italic text_
 line1 \ 
 line2
 ```
-
-
-# code block
 ```markdown
-```python3
-print('line 1')
-print('line 2') ```
+line1<space><space>
+line2
 ```
 
+# code block
+~~~markdown
+```python
+print('line 1')
+print('line 2') 
+```
+~~~
+```markdown
+~~~javascript
+console.log('line 1');
+console.log('line 2');
+~~~
+```
 
 # blockquotes
 ```markdown
@@ -41,17 +77,17 @@ print('line 2') ```
 
 # headings
 ```markdown
-#       heading1 example
-##      heading2 example
-###     heading3 example
-####    heading4 example
-#####   heading5 example
-######  heading6 example
+#       heading1
+##      heading2
+###     heading3
+####    heading4
+#####   heading5
+######  heading6
 ```
 ```markdown
-heading1 example
+heading1
 =
-heading2 example
+heading2
 -
 ```
 
@@ -78,7 +114,7 @@ heading2 example
 ```
 
 
-# table
+# tables
 ```markdown
 |col1     |col2     |col3
 |-        |-        |-
@@ -87,7 +123,7 @@ heading2 example
 ```
 
 
-# link
+# links
 ```markdown
 [Link text](url)
 [Link text](url "title")
@@ -106,4 +142,11 @@ heading2 example
 
 [refrence]: url
 [refrence]: url "title"
+```
+
+# horizontal rule
+```markdown
+***
+---
+___
 ```
