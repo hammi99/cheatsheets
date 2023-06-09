@@ -27,13 +27,13 @@ https://github.github.com/gfm/
 * [images](#images)
 * [horizontal rule](#horizontal-rule)
 
-# comments
+## comments
 ```markdown
 <!-- inside comment -->
 ```
 
 
-# text formatting
+## text formatting
 ```markdown
 regular text
 **bold text**
@@ -44,7 +44,7 @@ _italic text_
 ```
 
 
-# line break
+## line break
 ```markdown
 line1 \ 
 line2
@@ -54,7 +54,7 @@ line1<space><space>
 line2
 ```
 
-# code block
+## code block
 ~~~markdown
 ```python
 print('line 1')
@@ -68,14 +68,14 @@ console.log('line 2');
 ~~~
 ```
 
-# blockquotes
+## blockquotes
 ```markdown
 > block text
 >> nested text
 ```
 
 
-# headings
+## headings
 ```markdown
 #       heading1
 ##      heading2
@@ -92,14 +92,14 @@ heading2
 ```
 
 
-# lists
+## lists
 
-## ordered
+### ordered
 ```markdown
 1. item 1
 2. item 2
 ```
-## unordered
+### unordered
 ```markdown
 * item 1
 * item 2
@@ -113,7 +113,7 @@ heading2
 ```
 
 
-# tables
+## tables
 ```markdown
 |col1     |col2     |col3
 |-        |-        |-
@@ -122,7 +122,7 @@ heading2
 ```
 
 
-# links
+## links
 ```markdown
 [Link text](url)
 [Link text](url "title")
@@ -133,7 +133,7 @@ heading2
 ```
 
 
-# images
+## images
 ```markdown
 ![alt text](url)
 ![alt text](url "title")
@@ -143,7 +143,7 @@ heading2
 [refrence]: url "title"
 ```
 
-# horizontal rule
+## horizontal rule
 ```markdown
 ***
 ---
