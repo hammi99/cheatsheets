@@ -3,5 +3,6 @@ A collection of minimalist cheatsheets for different programming languages
 
 ___
 
-* [markdown ](../main/markdown.md)
-* [python3  ](../main/python3.md)
+* [markdown ](markdown.md)
+* [python3  ](python3.md)
+* [sql      ](sql.md)
