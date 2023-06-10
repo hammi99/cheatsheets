@@ -144,7 +144,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 > ```markdown
 > + [ ] task 1
-> + [X] completed task 
+> + [x] completed task 
 >   + [ ] nested task
 > ```
 >
