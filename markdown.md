@@ -13,140 +13,156 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 # Github flavoured Markdown
 
 ## index
-
-* [comments](#comments)
-* [text formatting](#text-formatting)
-* [line break](#line-break)
-* [code block](#code-block)
-* [blockquotes](#blockquotes)
-* [headings](#headings)
-* [lists](#lists)
-  * [ordered](#ordered)
-  * [unordered](#unordered)
-* [tables](#tables)
-* [links](#links)
-* [images](#images)
+* [comments       ](#comments)
+* [emphasis       ](#emphasis)
+* [line break     ](#line-break)
+* [code block     ](#code-block)
+* [blockquotes    ](#blockquotes)
+* [headings       ](#headings)
+* [lists          ](#lists)
+  * [unordered     ](#unordered)
+  * [ordered       ](#ordered)
+* [tables         ](#tables)
+* [links          ](#links)
+* [images         ](#images)
 * [horizontal rule](#horizontal-rule)
 
+
 ## comments
-```markdown
-<!-- inside comment -->
-```
+> ```markdown
+> <!-- inside comment -->
+> ```
 
 
-## text formatting
-```markdown
-regular text
-**bold text**
-_italic text_
-*italic text*
-~strikethrough text~
-`code element`
-```
+## emphasis
+> ```markdown
+> regular text
+> 
+> *italic text*
+> **bold text**
+> 
+> _italic text_
+> __bold text__
+> 
+> ~~strikethrough text~~
+> 
+> `code element`
+> ```
 
 
 ## line break
-```markdown
-line1 \ 
-line2
-```
-```markdown
-line1<space><space>
-line2
-```
+> ```markdown
+> line1 \ 
+> line2
+> ```
+> ```markdown
+> line1(space)(space)
+> line2
+> ```
+
 
 ## code block
-~~~markdown
-```python
-print('line 1')
-print('line 2') 
-```
-~~~
-```markdown
-~~~javascript
-console.log('line 1');
-console.log('line 2');
-~~~
-```
+> ~~~markdown
+> ```python
+> print('line 1')
+> print('line 2') 
+> ```
+> ~~~
+> ```markdown
+> ~~~javascript
+> console.log('line 1');
+> console.log('line 2');
+> ~~~
+> ```
+
 
 ## blockquotes
-```markdown
-> block text
->> nested text
-```
+> ```markdown
+> > block text
+> >> nested text
+> ```
 
 
 ## headings
-```markdown
-#       heading1
-##      heading2
-###     heading3
-####    heading4
-#####   heading5
-######  heading6
-```
-```markdown
-heading1
-=
-heading2
--
-```
+> ```markdown
+> #       heading1
+> ##      heading2
+> ###     heading3
+> ####    heading4
+> #####   heading5
+> ######  heading6
+> ```
+> ```markdown
+> heading1
+> =
+> heading2
+> -
+> ```
 
 
 ## lists
 
-### ordered
-```markdown
-1. item 1
-2. item 2
-```
-### unordered
-```markdown
-* item 1
-* item 2
- * nested item
-* item 3
-```
-```markdown
-- item 1
-+ item 1
-* item 1
-```
+> ### unordered
+>> ```markdown
+>> * item 1
+>> * item 2
+>>  * nested item
+>> ```
+>> ```markdown
+>> - item 1
+>> + item 1
+>> * item 1
+>>```
+>
+> ### ordered
+>> ```markdown
+>> 1. item 1
+>> 2. item 2
+>> ```
 
 
 ## tables
-```markdown
-|col1     |col2     |col3
-|-        |-        |-
-|data00   |data01   |data02
-|data10   |data11   |data12
-```
+> ```markdown
+> | column A     | column B        | column A     
+> | ------------ |:---------------:| -------------:
+> | left aligned | centere aligned | right-aligned 
+> | aaa          | bbb             | ccc           
+> ```
 
 
 ## links
-```markdown
-[Link text](url)
-[Link text](url "title")
-[Link text][refrence]
-
-[refrence]: url
-[refrence]: url "title"
-```
+> ```markdown
+> [text](url)
+> [text](url "title")
+> [text][refrence]
+>
+> [refrence]: url
+> [refrence]: url "title"
+> ```
 
 
 ## images
-```markdown
-![alt text](url)
-![alt text](url "title")
-![alt text][refrence]
+> ```markdown
+> ![text](url)
+> ![text](url "title")
+> ![text][refrence]
+> 
+> [refrence]: url
+> [refrence]: url "title"
+> ```
 
-[refrence]: url
-[refrence]: url "title"
-```
 
 ## horizontal rule
-```markdown
-***
----
-___
-```
+> ```markdown
+> ***
+> ---
+> ___
+> ```
+
+
+## footnote
+> ```markdown
+> Here's a sentence with a footnote. [^1]
+> 
+> [^1]: This is the footnote.
+> ```
