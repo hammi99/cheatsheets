@@ -1,14 +1,11 @@
 <!-- 
-things to confirm ~~~what is this?~~~
-
-
-links:
 https://www.w3schools.io/file/markdown-introduction/  
 https://www.markdowntutorial.com/
 https://www.markdownguide.org/cheat-sheet/
 https://github.github.com/gfm/
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  -->
+
 
 # Github flavoured Markdown
 
@@ -62,12 +59,18 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ## code block
-> ~~~markdown
+> `````markdown
 > ```python
 > print('line 1')
 > print('line 2') 
 > ```
-> ~~~
+> 
+> ````markdown
+> ```python
+> print('use different number of ticks to nest code blocks')
+> ```
+> ````
+> `````
 > ```markdown
 > ~~~javascript
 > console.log('line 1');
@@ -104,13 +107,13 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 > ### unordered
 >> ```markdown
->> * item 1
->> * item 2
->>  * nested item
+>> + item 1
+>> + item 2
+>>  + nested item
 >> ```
 >> ```markdown
->> - item 1
 >> + item 1
+>> - item 1
 >> * item 1
 >>```
 >
@@ -119,6 +122,19 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 >> 1. item 1
 >> 2. item 2
 >> ```
+
+
+## task list
+> ```markdown
+> + [ ] task 1
+> + [X] completed task 
+>   + [ ] nested task
+> ```
+> ```markdown
+> + [ ] task1
+> - [ ] task1
+> * [ ] task1
+> ```
 
 
 ## tables
@@ -166,3 +182,5 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 > 
 > [^1]: This is the footnote.
 > ```
+
+
