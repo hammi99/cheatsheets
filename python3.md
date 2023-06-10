@@ -86,20 +86,19 @@ https://docs.python.org/3/library/functions.html
 >> ```
 >
 > ### r-string 
->> ignores escape sequences  
->> error if last character is '\\'
 >> ```python3
 >> r'raw string'         # >> raw string
 >> r'ABCDE\nFGH'         # >> ABCDE\nFGH
 >> r'ABCDE\rFGH'         # >> ABCDE\rFGH
+>> r'ABCDEFGH\'          # >> Error
 >> ```
 >
 > ### f-string 
->> (formats string)
->> https://peps.python.org/pep-0498/  
->> http://cissandbox.bentley.edu/sandbox/wp-content/uploads/2022-02-10-Documentation-on-f-strings-Updated.pdf  
->> f'{expression debug : alignment precision type}'  
->> use f'{{}}' to escape curly brackets  
+<!-- https://peps.python.org/pep-0498/  
+http://cissandbox.bentley.edu/sandbox/wp-content/uploads/2022-02-10-Documentation-on-f-strings-Updated.pdf  
+f'{expression debugging : alignment precision type func}'  
+use f'{{}}' to escape curly brackets  
+-->
 >> 
 >> #### debugging
 >>> ```python3
@@ -115,32 +114,32 @@ https://docs.python.org/3/library/functions.html
 >>> f'|{exp:<5}|'  # >> |123  |
 >>> f'|{exp:>5}|'  # >> |  123|
 >>> f'|{exp:^5}|'  # >> | 123 |
->>> ```
->>
->> #### types
->>> ensure that the expession is of a specific type
->>> ```python3
->>> f'{exp:d}'  # >> 123              (integer)
->>> f'{exp:f}'  # >> 123.0            (float)
->>> f'{exp:n}'  # >> 123              (number)
->>> f'{exp:s}'  #                     (string)
->>> ```
->> 
->> #### notations
->>> represent the expression in a specific notation
->>> ```python3
->>> f'{exp:b}'  # >> 1111011          (integer to binary)
->>> f'{exp:o}'  # >> 173              (integer to octal)
->>> f'{exp:x}'  # >> 7b               (integer to hexadecimal lowercase)
->>> f'{exp:X}'  # >> 7B               (integer to hexadecimal uppercase)
 >>> 
->>> f'{exp:e}'  # >> 1.230000e+02     (number to scientific)
->>> f'{exp:%}'  # >> 12300.000000%    (number to percentage)
+>>> f'|{exp:-<5}|'  # >> |123--|
+>>> f'|{exp:0>5}|'  # >> |00123|
+>>> f'|{exp:~^5}|'  # >> |~123~|
 >>> ```
 >>
 >> #### precision
 >>> ```python3
 >>> f'{exp:.3}'
+>>> ```
+>>
+>> #### notations
+>>> ```python3
+>>> f'{exp:b}'  # >> 1111011          (integer to binary)
+>>> f'{exp:o}'  # >> 173              (integer to octal)
+>>> f'{exp:d}'  # >> 123              (integer to decimal)
+>>> f'{exp:x}'  # >> 7b               (integer to hexadecimal lowercase)
+>>> f'{exp:X}'  # >> 7B               (integer to hexadecimal uppercase)
+>>> 
+>>> f'{exp:f}'  # >> 123.0            (number to point decimal)
+>>> f'{exp:e}'  # >> 1.230000e+02     (number to scientific)
+>>> f'{exp:%}'  # >> 12300.000000%    (number to percentage)
+>>> 
+>>> f'{exp:n}'  # >> 123              (number to decimal or point decimal)
+>>> 
+>>> f'{exp:s}'  #                     (string to string)
 >>> ```
 >>
 >> ```
