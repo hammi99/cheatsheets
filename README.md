@@ -1,5 +1,5 @@
 # cheatsheets
-A collection of minimalist cheatsheets for different programming languages
+A collection of minimalist cheatsheets for different programming and domain specific languages
 
 ___
 
