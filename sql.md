@@ -19,6 +19,7 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 > ```
 
 ## DDL - Data Definition Language
+
 > ### CREATE
 >> ```sql
 >> CREATE DATABASE dbName;
@@ -29,7 +30,29 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 >>     columnName2 VARCHAR(10)
 >> );
 >> ```
->> 
+>
+> ### DROP
+>> ```sql
+>> DROP DATABASE dbNAME;
+>> ```
+>> ```sql
+>> DROP TABLE tableName;
+>> ```
+>> ```sql
+>> DROP VIEW viewName;
+>> ```
+>> ```sql
+>> DROP INDEX indexName;
+>> ```
+>> ```sql
+>> DROP TRIGGER triggerName;
+>> ```
+>
+> ### TRUNCATE
+>> ```sql
+>> TRUNCATE TABLE tableName;
+>> ```
+>
 > ### ALTER
 > 
 >> #### RENAME
@@ -55,9 +78,6 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 >> ```sql
 >> ALTER TABLE tableName DROP constraint;
 >> ```
->
-> ### DROP
-> ### TRUNCATE
 
 ## DML - Data Manipulation Language
 > ### SELECT
@@ -65,4 +85,4 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 > ### UPDATE
 > ### DELETE
 
-### DCL - Data Control Language
+## DCL - Data Control Language
