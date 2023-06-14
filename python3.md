@@ -96,7 +96,7 @@ https://docs.python.org/3/library/functions.html
 > ### f-string 
 <!-- https://peps.python.org/pep-0498/  
 http://cissandbox.bentley.edu/sandbox/wp-content/uploads/2022-02-10-Documentation-on-f-strings-Updated.pdf  
-f'{expression debugging : alignment precision type func}'  
+f'{expression debugging : alignment comma precision type func}'
 use f'{{}}' to escape curly brackets  
 -->
 >> 
