@@ -165,3 +165,20 @@ use f'{{}}' to escape curly brackets
 >>   pass
 >> bar = foo(bar)
 >> ```
+
+## Operator Precedence
+> ```python3
+> ()	
+> **	
+> +x, -x, ~x	
+> *, /, //, %	
+> +, -	
+> <<, >>	
+> &	
+> ^	 
+> |	
+> ==, !=, >, >=, <, <=, is, is not, in, not in	
+> not	
+> and	
+> or
+> ```
