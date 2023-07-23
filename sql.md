@@ -33,19 +33,7 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 >
 > ### DROP
 >> ```sql
->> DROP DATABASE dbNAME;
->> ```
->> ```sql
->> DROP TABLE tableName;
->> ```
->> ```sql
->> DROP VIEW viewName;
->> ```
->> ```sql
->> DROP INDEX indexName;
->> ```
->> ```sql
->> DROP TRIGGER triggerName;
+>> DROP DATABASE dbName; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
 >> ```
 >
 > ### TRUNCATE
@@ -86,3 +74,8 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 > ### DELETE
 
 ## DCL - Data Control Language
+
+## miscellameous
+```sql
+USE database;
+```
