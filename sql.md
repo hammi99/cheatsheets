@@ -78,4 +78,8 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 ## miscellameous
 ```sql
 USE database;
+
+UPDATE myTable
+SET ID += 1
+WHERE <Condition>;
 ```
