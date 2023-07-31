@@ -71,7 +71,15 @@ ALTER TABLE tableName DROP constraint;
 ### INSERT
 
 ```sql
-INSERT INTO tableName VALU
+INSERT INTO tableName 
+VALUES
+	(a1, a2, a3)
+;
+
+INSERT INTO tableName 
+VALUES
+	(a1, a2, a3)
+;
 ```
 ### UPDATE
 ### DELETE
