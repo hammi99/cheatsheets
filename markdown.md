@@ -25,6 +25,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * [images](#images)
 * [footnote](#footnote)
 * [horizontal rule](#horizontal-rule)
+* [other resources](#other-resources)
 
 
 ## comments
@@ -89,119 +90,118 @@ console.log('line 2');
 
 ## blockquotes
 
-> ```markdown
->> block text
->>> nested text
-> ```
+```markdown
+> block text
+>> nested text
+```
 
 
 ## headings
 
-> ```markdown
-> #       heading1
-> ##      heading2
-> ###     heading3
-> ####    heading4
-> #####   heading5
-> ######  heading6
-> ```
->
-> ```markdown
-> heading1
-> =
-> heading2
-> -
-> ```
+```markdown
+#       heading1
+##      heading2
+###     heading3
+####    heading4
+#####   heading5
+######  heading6
+```
+
+```markdown
+heading1
+=
+heading2
+-
+```
 
 
 ## lists
 
-> ### unordered
->
->> ```markdown
->> + item 1
->> + item 2
->>  + nested item
->> ```
->>
->> ```markdown
->> + item 1
->> - item 1
->> * item 1
->> ```
->>
->
-> ### ordered
->
->> ```markdown
->> 1. item 1
->> 2. item 2
->> ```
->>
+### unordered
+
+```markdown
++ item 1
++ item 2
+  + nested item
+```
+
+```markdown
++ item 1
+- item 1
+* item 1
+```
+
+
+### ordered
+
+```markdown
+1. item 1
+2. item 2
+```
 
 
 ## task list
 
-> ```markdown
-> + [ ] task 1
-> + [x] completed task 
->   + [ ] nested task
-> ```
->
-> ```markdown
-> + [ ] task1
-> - [ ] task1
-> * [ ] task1
-> ```
+```markdown
++ [ ] task 1
++ [x] completed task 
+  + [ ] nested task
+```
+
+```markdown
++ [ ] task1
+- [ ] task1
+* [ ] task1
+```
 
 
 ## tables
 
-> ```markdown
-> | column A     | column B        | column A   
-> | ------------ |:---------------:| -------------:
-> | left aligned | centere aligned | right-aligned 
-> | aaa          | bbb             | ccc         
-> ```
+```markdown
+| column A     | column B        | column A   
+| ------------ |:---------------:| -------------:
+| left aligned | centere aligned | right-aligned 
+| aaa          | bbb             | ccc         
+```
 
 
 ## links
 
-> ```markdown
-> [text](url)
-> [text](url "title")
-> [text][refrence]
->
-> [refrence]: url
-> [refrence]: url "title"
-> ```
+```markdown
+[text](url)
+[text](url "title")
+[text][refrence]
+
+[refrence]: url
+[refrence]: url "title"
+```
 
 
 ## images
 
-> ```markdown
-> ![text](url)
-> ![text](url "title")
-> ![text][refrence]
->
-> [refrence]: url
-> [refrence]: url "title"
-> ```
+```markdown
+![text](url)
+![text](url "title")
+![text][refrence]
+
+[refrence]: url
+[refrence]: url "title"
+```
 
 
 ## footnote
 
-> ```markdown
-> Here's a sentence with a footnote. [^1]
->
-> [^1]: This is the footnote.
-> ```
+```markdown
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+```
 
 
 ## horizontal rule
 
-> ```markdown
-> ***
-> ---
-> ___
-> ```
+```markdown
+***
+---
+___
+```
