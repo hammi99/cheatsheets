@@ -27,15 +27,19 @@ comment.
 
 ```sql
 SELECT DISTINCT 
-	`columnName`,
-	AGG_FUNC(_column_or_expression_)
+	`columnName1`,
+	AGG_FUNC(`columnName2`)
 	
 FROM `tableName1`
 	JOIN `tableName2` ON `columnName1` = `columnName2`
+	
 WHERE <condition>
-GROUP BY `columnName`
+
+GROUP BY `columnName1`
 	HAVING <condition>
-ORDER BY `columName` ASC/DESC 
+	
+ORDER BY `columName1` ASC/DESC 
+
 LIMIT 1000
 ;
 ```
