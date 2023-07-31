@@ -35,8 +35,9 @@ FROM `tableName1`
 WHERE <condition>
 GROUP BY `columnName`
 	HAVING <condition>
-ORDER BY _column_ ASC/DESC 
-LIMIT _count_ OFFSET _COUNT_;
+ORDER BY `columName` ASC/DESC 
+LIMIT 1000
+;
 ```
 
 ```sql
