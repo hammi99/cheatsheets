@@ -112,6 +112,7 @@ use f'{{}}' to escape curly brackets
 
 ```python
 exp = 123
+
 f'{exp=}'     # >> exp=123
 f'{exp= }'    # >> exp= 123
 f'{exp =}'    # >> exp =123
@@ -141,6 +142,8 @@ f'{exp:.3}'
 #### notations
 
 ```python
+exp = 123
+
 f'{exp:b}'  # >> 1111011          (integer to binary)
 f'{exp:o}'  # >> 173              (integer to octal)
 f'{exp:d}'  # >> 123              (integer to decimal)
