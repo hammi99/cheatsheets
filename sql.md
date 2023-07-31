@@ -79,6 +79,10 @@ VALUES
 ;
 ```
 ### UPDATE
+
+```sql
+UPDATE `tableName` SET `columnName1` = value1, column2 = value2,…
+```
 ### DELETE
 ### CALL
 ### EXPLAIN CALL
