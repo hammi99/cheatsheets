@@ -56,7 +56,12 @@ ALTER TABLE `tableName` `columnName1` TO `columnName2`;
 
 #### ADD
 ```sql
-ALTER TABLE `tableName` ADD `columnName`;
+ALTER TABLE `tableName` 
+ADD `tableName` (
+    `columnName1` INT,
+    `columnName2` VARCHAR(10)
+);
+
 ALTER TABLE `tableName` ADD `constraint`;
 ```
 
