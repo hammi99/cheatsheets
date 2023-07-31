@@ -48,8 +48,7 @@ TRUNCATE TABLE tableName;
 #### RENAME
 ```sql
 ALTER TABLE tableName1 TO tableName2
-```
-```sql
+
 ALTER TABLE tableName columnName1 TO columnName2;
 ```
 
@@ -70,14 +69,14 @@ ALTER TABLE tableName DROP constraint;
 ```
 
 ## DML - Data Manipulation Language
-> ### SELECT
-> ### INSERT
-> ### UPDATE
-> ### DELETE
+### SELECT
+### INSERT
+### UPDATE
+### DELETE
 
 ## DCL - Data Control Language
 
-## miscellameous
+## miscellaneous
 ```sql
 USE database;
 
