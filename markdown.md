@@ -102,12 +102,12 @@ console.log('line 2');
 ## headings
 
 ```markdown
-#       heading1
-##      heading2
-###     heading3
-####    heading4
-#####   heading5
-######  heading6
+# heading1
+## heading2
+### heading3
+#### heading4
+##### heading5
+###### heading6
 ```
 
 ```markdown
@@ -166,7 +166,6 @@ heading2
 | left aligned | centere aligned | right aligned 
 | aaa          | bbb             | ccc         
 ```
-notice the use of `:` for different alignments 
 
 
 ## links
