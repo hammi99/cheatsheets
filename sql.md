@@ -69,6 +69,10 @@ ALTER TABLE tableName DROP constraint;
 ---
 ## DML - Data Manipulation Language
 ### INSERT
+
+```sql
+
+```
 ### UPDATE
 ### DELETE
 ### CALL
