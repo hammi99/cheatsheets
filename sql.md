@@ -68,7 +68,6 @@ ALTER TABLE tableName DROP constraint;
 
 ---
 ## DML - Data Manipulation Language
-### SELECT
 ### INSERT
 ### UPDATE
 ### DELETE
@@ -81,6 +80,8 @@ ALTER TABLE tableName DROP constraint;
 
 
 ## DQL - Data Query Language
+
+### SELECT
 
 
 ## TCL - Transaction Control Language
