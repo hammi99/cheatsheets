@@ -50,7 +50,7 @@ HAVING
 SELECT
 DISTINCT
 ORDER BY
-
+LIMIT
 ```
 ---
 ## DDL - Data Definition Language
