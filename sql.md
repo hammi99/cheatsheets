@@ -65,11 +65,13 @@ ALTER TABLE tableName DROP columnName;
 ALTER TABLE tableName DROP constraint;
 ```
 
+
 ## DML - Data Manipulation Language
 ### SELECT
 ### INSERT
 ### UPDATE
 ### DELETE
+
 
 ## DCL - Data Control Language
 
@@ -77,7 +79,9 @@ ALTER TABLE tableName DROP constraint;
 ## DQL - Data Query Language
 
 
-## TCL - 
+## TCL - Transaction Control Language
+
+
 ## miscellaneous
 ```sql
 USE database;
