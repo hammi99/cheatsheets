@@ -7,7 +7,7 @@ https://www.scaler.com/topics/ddl-dml-dcl/
  
 # SQL - Single Query Language
 
-## comments
+## Comments
 
 ```sql
 -- single line comment
@@ -20,6 +20,7 @@ comment.
 */
 ```
 
+---
 ## DDL - Data Definition Language
 
 ### CREATE
