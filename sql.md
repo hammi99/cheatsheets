@@ -26,10 +26,10 @@ comment.
 ### SELECT
 
 ```sql
-SELECT *
-
-
-SELECT DISTINCT column, AGG_FUNC(_column_or_expression_), … 
+SELECT DISTINCT 
+	`columnName`,
+	AGG_FUNC(_column_or_expression_)
+	
 FROM `tableName1`
 	JOIN `tableName2` ON `columnName1` = `columnName2`
 WHERE <condition>
@@ -41,6 +41,7 @@ LIMIT 1000
 ```
 
 ```sql
+()
 FROM JOIN
 WHERE
 GROUP BY
