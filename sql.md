@@ -56,8 +56,8 @@ ALTER TABLE tableName columnName1 TO columnName2;
 
 #### ADD
 ```sql
-ALTER TABLE tableName ADD columnName;
-ALTER TABLE tableName ADD constraint;
+ALTER TABLE `tableName` ADD `columnName`;
+ALTER TABLE `tableName` ADD `constraint`;
 ```
 
 #### DROP
