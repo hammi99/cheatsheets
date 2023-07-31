@@ -25,31 +25,31 @@ comment.
 ### CREATE
 ```sql
 CREATE DATABASE dbName;
->> ```
->> ```sql
->> CREATE TABLE tableName (
->>     columnName1 INT,
->>     columnName2 VARCHAR(10)
->> );
->> ```
->
-> ### DROP
->> ```sql
->> DROP DATABASE dbName; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
->> ```
->
-> ### TRUNCATE
->> ```sql
->> TRUNCATE TABLE tableName;
->> ```
->
-> ### ALTER
-> 
->> #### RENAME
->> ```sql
->> ALTER TABLE tableName1 TO tableName2
->> ```
->> ```sql
+```
+```sql
+CREATE TABLE tableName (
+    columnName1 INT,
+    columnName2 VARCHAR(10)
+);
+```
+
+### DROP
+```sql
+DROP DATABASE dbName; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
+```
+
+### TRUNCATE
+```sql
+TRUNCATE TABLE tableName;
+```
+
+### ALTER
+
+#### RENAME
+```sql
+ALTER TABLE tableName1 TO tableName2
+```
+```sql
 >> ALTER TABLE tableName columnName1 TO columnName2;
 >> ```
 >> 
