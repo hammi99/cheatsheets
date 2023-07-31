@@ -72,8 +72,11 @@ ALTER TABLE tableName DROP constraint;
 ### INSERT
 ### UPDATE
 ### DELETE
+### CALL
+### EXPLAIN CALL
+### LOCK
 
-
+---
 ## DCL - Data Control Language
 
 
