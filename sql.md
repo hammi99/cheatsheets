@@ -119,8 +119,4 @@ WHERE
 
 ```sql
 USE database;
-
-UPDATE myTable
-SET ID += 1
-WHERE <Condition>;
 ```
