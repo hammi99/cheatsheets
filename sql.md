@@ -89,6 +89,10 @@ ALTER TABLE tableName DROP constraint;
 ---
 ## TCL - Transaction Control Language
 
+### COMMIT
+### SAVEPOINT
+### ROLLBACK
+### SET TRANSACTION
 
 ## miscellaneous
 ```sql
