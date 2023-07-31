@@ -74,8 +74,8 @@ ALTER TABLE `tableName` DROP constraint;
 INSERT INTO `tableName` 
 	(`columnName1`, `columnName2`, `columnName3`)
 VALUES
-	(a1, a2, a3),
-	(b1, b2, b3)
+	(<value>, <value>, <value>),
+	(<value>, <value>, <value>)
 ;
 ```
 ### UPDATE
@@ -83,8 +83,8 @@ VALUES
 ```sql
 UPDATE `tableName` 
 SET 
-	`columnName1` = <value1>, 
-	`column2` = value2
+	`columnName1` = <value>, 
+	`columnName2` = <value>
 ;
 ```
 ### DELETE
