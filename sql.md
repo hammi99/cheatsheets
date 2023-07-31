@@ -21,6 +21,16 @@ comment.
 ```
 
 ---
+## DQL - Data Query Language
+
+### SELECT
+
+```sql
+SELECT *
+FROM 
+```
+
+---
 ## DDL - Data Definition Language
 
 ### CREATE
@@ -104,11 +114,6 @@ USE `dbName`;
 ```
 ### GRANT
 ### REVOKE
-
----
-## DQL - Data Query Language
-
-### SELECT
 
 ---
 ## TCL - Transaction Control Language
