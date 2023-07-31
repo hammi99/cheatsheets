@@ -49,7 +49,7 @@ TRUNCATE TABLE `tableName`;
 
 #### RENAME
 ```sql
-ALTER TABLE `tableName1` TO `tableName2`;
+ALTER TABLE `tableName1` RENAME TO `tableName2`;
 
 ALTER TABLE `tableName` `columnName1` TO `columnName2`;
 ```
