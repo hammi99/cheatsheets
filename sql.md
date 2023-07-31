@@ -56,8 +56,7 @@ ALTER TABLE `tableName` `columnName1` TO `columnName2`;
 
 #### ADD
 ```sql
-ALTER TABLE `tableName` 
-ADD `tableName` (
+ALTER TABLE `tableName` ADD (
     `columnName1` INT,
     `columnName2` VARCHAR(10)
 );
