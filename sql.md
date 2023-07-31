@@ -37,21 +37,21 @@ CREATE TABLE `tableName` (
 
 ### DROP
 ```sql
-DROP DATABASE dbName; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
+DROP DATABASE `dbName`; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
 ```
 
 ### TRUNCATE
 ```sql
-TRUNCATE TABLE tableName;
+TRUNCATE TABLE `tableName`;
 ```
 
 ### ALTER
 
 #### RENAME
 ```sql
-ALTER TABLE tableName1 TO tableName2
+ALTER TABLE `tableName1` TO `tableName2`;
 
-ALTER TABLE tableName columnName1 TO columnName2;
+ALTER TABLE `tableName` `columnName1` TO `columnName2`;
 ```
 
 #### ADD
