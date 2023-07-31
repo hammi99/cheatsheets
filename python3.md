@@ -156,7 +156,7 @@ f'{exp:%}'  # >> 12300.000000%    (number to percentage)
 
 f'{exp:n}'  # >> 123              (number to decimal or point decimal)
 
-f'{exp:s}'  #                     (string to string)
+f'{exp:s}'  # ERROR               (string to string)
 ```
 
 ```python
