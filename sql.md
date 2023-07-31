@@ -63,7 +63,7 @@ ALTER TABLE `tableName` ADD `constraint`;
 #### DROP
 ```sql
 ALTER TABLE `tableName` DROP `columnName`;
-ALTER TABLE `tableName` DROP `constraint`;
+ALTER TABLE `tableName` DROP constraint;
 ```
 
 ---
@@ -81,7 +81,11 @@ VALUES
 ### UPDATE
 
 ```sql
-UPDATE `tableName` SET `columnName1` = value1, column2 = value2,…
+UPDATE `tableName` 
+SET 
+	`columnName1` = <value1>, 
+	`column2` = value2
+;
 ```
 ### DELETE
 ### CALL
