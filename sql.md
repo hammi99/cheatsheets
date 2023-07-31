@@ -93,8 +93,11 @@ ALTER TABLE tableName DROP constraint;
 ### SAVEPOINT
 ### ROLLBACK
 ### SET TRANSACTION
+### SET CONSTRAINT
 
+---
 ## miscellaneous
+
 ```sql
 USE database;
 
