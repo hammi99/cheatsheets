@@ -56,16 +56,12 @@ ALTER TABLE tableName columnName1 TO columnName2;
 #### ADD
 ```sql
 ALTER TABLE tableName ADD columnName;
-```
-```sql
 ALTER TABLE tableName ADD constraint;
 ```
 
 #### DROP
 ```sql
 ALTER TABLE tableName DROP columnName;
-```
-```sql
 ALTER TABLE tableName DROP constraint;
 ```
 
