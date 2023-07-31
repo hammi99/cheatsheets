@@ -41,6 +41,17 @@ ORDER BY _column_ ASC/DESC
 LIMIT _count_ OFFSET _COUNT_;
 ```
 
+```sql
+FROM
+JOIN
+WHERE
+GROUP BY
+HAVING
+SELECT
+DISTINCT
+ORDER BY
+
+```
 ---
 ## DDL - Data Definition Language
 
