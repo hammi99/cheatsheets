@@ -71,7 +71,7 @@ ALTER TABLE tableName DROP constraint;
 ### INSERT
 
 ```sql
-
+INSERT INTO tableName VALU
 ```
 ### UPDATE
 ### DELETE
