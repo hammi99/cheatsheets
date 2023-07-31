@@ -26,6 +26,7 @@ comment.
 ```sql
 CREATE DATABASE dbName;
 ```
+
 ```sql
 CREATE TABLE tableName (
     columnName1 INT,
