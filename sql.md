@@ -72,14 +72,9 @@ ALTER TABLE tableName DROP constraint;
 
 ```sql
 INSERT INTO tableName 
-VALUES
-	(a1, a2, a3)
-;
-
-INSERT INTO tableName 
 	(columnName1, columnName2, columnName3)
 VALUES
-	(a1, a2, a3),
+	(value1     , a2, a3),
 	(b1, b2, b3)
 ;
 ```
