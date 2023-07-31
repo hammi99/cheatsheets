@@ -25,13 +25,13 @@ comment.
 
 ### CREATE
 ```sql
-CREATE DATABASE dbName;
+CREATE DATABASE `dbName`;
 ```
 
 ```sql
-CREATE TABLE tableName (
-    columnName1 INT,
-    columnName2 VARCHAR(10)
+CREATE TABLE `tableName` (
+    `columnName1` INT,
+    `columnName2` VARCHAR(10)
 );
 ```
 
