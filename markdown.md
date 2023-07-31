@@ -78,7 +78,7 @@ print('line 2')
 
 ````markdown
 ```python
-print('use different number of'
+print('use different number of')
 print('ticks to nest code blocks')
 ```
 ````
