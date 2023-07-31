@@ -22,9 +22,9 @@ comment.
 
 ## DDL - Data Definition Language
 
-> ### CREATE
->> ```sql
->> CREATE DATABASE dbName;
+### CREATE
+```sql
+CREATE DATABASE dbName;
 >> ```
 >> ```sql
 >> CREATE TABLE tableName (
