@@ -74,7 +74,7 @@ ALTER TABLE tableName DROP constraint;
 INSERT INTO tableName 
 	(columnName1, columnName2, columnName3)
 VALUES
-	(value1     , a2, a3),
+	(a1, a2, a3),
 	(b1, b2, b3)
 ;
 ```
