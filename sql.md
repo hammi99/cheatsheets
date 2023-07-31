@@ -40,6 +40,8 @@ LIMIT 1000
 ;
 ```
 
+#### statement precedence
+
 ```sql
 ()
 FROM JOIN
