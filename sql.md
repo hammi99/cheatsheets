@@ -78,12 +78,15 @@ ALTER TABLE tableName DROP constraint;
 ---
 ## DCL - Data Control Language
 
+### GRANT
+### REVOKE
 
+---
 ## DQL - Data Query Language
 
 ### SELECT
 
-
+---
 ## TCL - Transaction Control Language
 
 
