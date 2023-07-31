@@ -27,7 +27,9 @@ comment.
 
 ```sql
 SELECT *
-FROM 
+FROM `tableName1`
+	JOIN `tableName2` ON `columnName1` = `columnName2`
+
 ```
 
 ---
