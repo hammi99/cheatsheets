@@ -31,7 +31,10 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ## comments
 
 ```markdown
-<!-- inside comment -->
+<!-- 
+multi line
+comment 
+-->
 ```
 
 
@@ -158,11 +161,12 @@ heading2
 ## tables
 
 ```markdown
-| column A     | column B        | column A   
+| column A     | column B        | column C   
 | ------------ |:---------------:| -------------:
-| left aligned | centere aligned | right-aligned 
+| left aligned | centere aligned | right aligned 
 | aaa          | bbb             | ccc         
 ```
+notice the use of `:` for different alignments 
 
 
 ## links
