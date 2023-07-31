@@ -27,16 +27,14 @@ comment.
 
 ```sql
 SELECT *
-FROM `tableName1`
-	JOIN `tableName2` ON `columnName1` = `columnName2`
 
 
 SELECT DISTINCT column, AGG_FUNC(_column_or_expression_), … 
-FROM mytable 
-	JOIN another_table ON mytable.column = another_table.column 
-WHERE _constraint_expression_ 
-GROUP BY column 
-	HAVING _constraint_expression_ 
+FROM `tableName1`
+	JOIN `tableName2` ON `columnName1` = `columnName2`
+WHERE <condition>
+GROUP BY `columnName`
+	HAVING <condition>
 ORDER BY _column_ ASC/DESC 
 LIMIT _count_ OFFSET _COUNT_;
 ```
