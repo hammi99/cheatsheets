@@ -98,6 +98,10 @@ WHERE
 ---
 ## DCL - Data Control Language
 
+### USE
+```sql
+USE `dbName`;
+```
 ### GRANT
 ### REVOKE
 
@@ -117,7 +121,3 @@ WHERE
 
 ---
 ## miscellaneous
-
-```sql
-USE database;
-```
