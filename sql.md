@@ -66,7 +66,7 @@ ALTER TABLE tableName DROP columnName;
 ALTER TABLE tableName DROP constraint;
 ```
 
-
+---
 ## DML - Data Manipulation Language
 ### SELECT
 ### INSERT
