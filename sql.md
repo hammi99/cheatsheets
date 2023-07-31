@@ -63,7 +63,7 @@ ALTER TABLE `tableName` ADD `constraint`;
 #### DROP
 ```sql
 ALTER TABLE `tableName` DROP `columnName`;
-ALTER TABLE `tableName` DROP constraint;
+ALTER TABLE `tableName` DROP <constraint>;
 ```
 
 ---
@@ -85,6 +85,8 @@ UPDATE `tableName`
 SET 
 	`columnName1` = <value>, 
 	`columnName2` = <value>
+WHERE
+	<condition>
 ;
 ```
 ### DELETE
