@@ -10,81 +10,81 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## index
 
-* [comments       ](#comments)
-* [emphasis       ](#emphasis)
-* [line break     ](#line-break)
-* [code block     ](#code-block)
-* [blockquotes    ](#blockquotes)
-* [headings       ](#headings)
-* [lists          ](#lists)
-  * [unordered     ](#unordered)
-  * [ordered       ](#ordered)
-* [task lists     ](#task-list)
-* [tables         ](#tables)
-* [links          ](#links)
-* [images         ](#images)
-* [footnote       ](#footnote)
+* [comments](#comments)
+* [emphasis](#emphasis)
+* [line break](#line-break)
+* [code block](#code-block)
+* [blockquotes](#blockquotes)
+* [headings](#headings)
+* [lists](#lists)
+  * [unordered](#unordered)
+  * [ordered](#ordered)
+* [task lists](#task-list)
+* [tables](#tables)
+* [links](#links)
+* [images](#images)
+* [footnote](#footnote)
 * [horizontal rule](#horizontal-rule)
 
 
 ## comments
 
-> ```markdown
-> <!-- inside comment -->
-> ```
+```markdown
+<!-- inside comment -->
+```
 
 
 ## emphasis
 
-> ```markdown
-> regular text
->
-> *italic text*
-> **bold text**
->
-> _italic text_
-> __bold text__
->
-> ~~strikethrough text~~
->
-> `code element`
-> ```
+```markdown
+regular text
+
+*italic text*
+**bold text**
+
+_italic text_
+__bold text__
+
+~~strikethrough text~~
+
+`code element`
+```
 
 
 ## line break
 
-> ```markdown
-> line1 \ 
-> line2
-> ```
->
-> ```markdown
-> line1(space)(space)
-> line2
-> ```
+```markdown
+line1 \ 
+line2
+```
+
+```markdown
+line1(space)(space)
+line2
+```
 
 
 ## code block
 
-> `````markdown
-> ```python
-> print('line 1')
-> print('line 2') 
-> ```
->
-> ````markdown
-> ```python
-> print('use different number of ticks to nest code blocks')
-> ```
-> ````
-> `````
->
-> ```markdown
-> ~~~javascript
-> console.log('line 1');
-> console.log('line 2');
-> ~~~
-> ```
+`````markdown
+```python
+print('line 1')
+print('line 2') 
+```
+
+````markdown
+```python
+print('use different number of ticks to nest code blocks')
+```
+````
+`````
+
+```markdown
+~~~javascript
+console.log('line 1');
+console.log('line 2');
+~~~
+```
 
 
 ## blockquotes

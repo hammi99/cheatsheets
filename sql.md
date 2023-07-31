@@ -8,15 +8,17 @@ https://www.scaler.com/topics/ddl-dml-dcl/
 # SQL - Single Query Language
 
 ## comments
-> ```sql
-> -- single line comment
-> ```
-> ```sql
-> /*
-> multiline 
-> comment.
-> */
-> ```
+
+```sql
+-- single line comment
+```
+
+```sql
+/*
+multiline 
+comment.
+*/
+```
 
 ## DDL - Data Definition Language
 

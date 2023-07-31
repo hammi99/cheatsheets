@@ -3,6 +3,6 @@ A collection of minimalist cheatsheets for different programming and domain spec
 
 ___
 
-* [markdown ](markdown.md)
-* [python3  ](python3.md)
-* [sql      ](sql.md)
+* [markdown](markdown.md)
+* [python3](python3.md)
+* [sql](sql.md)
