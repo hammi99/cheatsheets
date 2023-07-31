@@ -73,6 +73,11 @@ ALTER TABLE tableName DROP constraint;
 
 ## DCL - Data Control Language
 
+
+## DQL - Data Query Language
+
+
+## TCL - 
 ## miscellaneous
 ```sql
 USE database;
