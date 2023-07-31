@@ -50,24 +50,24 @@ TRUNCATE TABLE tableName;
 ALTER TABLE tableName1 TO tableName2
 ```
 ```sql
->> ALTER TABLE tableName columnName1 TO columnName2;
->> ```
->> 
->> #### ADD
->> ```sql
->> ALTER TABLE tableName ADD columnName;
->> ```
->> ```sql
->> ALTER TABLE tableName ADD constraint;
->> ```
->> 
->> #### DROP
->> ```sql
->> ALTER TABLE tableName DROP columnName;
->> ```
->> ```sql
->> ALTER TABLE tableName DROP constraint;
->> ```
+ALTER TABLE tableName columnName1 TO columnName2;
+```
+
+#### ADD
+```sql
+ALTER TABLE tableName ADD columnName;
+```
+```sql
+ALTER TABLE tableName ADD constraint;
+```
+
+#### DROP
+```sql
+ALTER TABLE tableName DROP columnName;
+```
+```sql
+ALTER TABLE tableName DROP constraint;
+```
 
 ## DML - Data Manipulation Language
 > ### SELECT
