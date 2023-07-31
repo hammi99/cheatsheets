@@ -77,6 +77,7 @@ VALUES
 ;
 
 INSERT INTO tableName 
+	(columnName1, columnName2, columnName3)
 VALUES
 	(a1, a2, a3)
 ;
