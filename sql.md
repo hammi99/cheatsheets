@@ -74,7 +74,9 @@ CREATE TABLE `tableName` (
 
 ### DROP
 ```sql
-DROP DATABASE `dbName`; -- can also be used for TABLE, VIEW, INDEX and TRIGGER
+-- can also be used for TABLE, VIEW, INDEX and TRIGGER
+DROP DATABASE `dbName`; 
+DROP DATABASE IF EXISTS `dbName`;
 ```
 
 ### TRUNCATE
