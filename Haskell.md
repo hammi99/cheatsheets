@@ -8,7 +8,7 @@
 |`&&` \||`Bool -> Bool -> Bool`|AND, OR|
 |`== /=`|`Eq a => a -> a -> Bool`|Value equality.|
 |`< >` `<=` `>=`|`Ord a => a -> a -> Bool`||
-|`+ - *`|`Num a => a -> a -> a`||
+|`+` `-` `*`|`Num a => a -> a -> a`||
 |unary -|`Num a => a -> a`|Same as `negate`|
 |`/`|`Fractional a => a -> a -> a`|For integer division use `div`|
 |`**`|`Floating a => a -> a -> a`|Floating power operation, anti-log|
