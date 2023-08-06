@@ -1,8 +1,11 @@
 # Comments
-#
+# Functions
+
+# Operators
+
 |Operator|Type|Notes|
 |:-:|---|---|
-|`&&` \||`Bool -> Bool -> Bool`|AND, OR|
+|`&&` |``|`Bool -> Bool -> Bool`|AND, OR|
 |`== /=`|`Eq a => a -> a -> Bool`|Value equality.|
 |`< > <= >=`|`Ord a => a -> a -> Bool`||
 |`+ - *`|`Num a => a -> a -> a`||
