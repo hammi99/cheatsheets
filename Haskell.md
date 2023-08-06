@@ -4,8 +4,8 @@
 # Operators
 
 |Operator|Type|Notes|
-|:-:|---|---|
-|`&&` \||`Bool -> Bool -> Bool`|AND, OR|
+|:-:     |---|---|
+|`&&` \|   |`Bool -> Bool -> Bool`|AND, OR|
 |`== /=`|`Eq a => a -> a -> Bool`|Value equality.|
 |`< >` `<=` `>=`|`Ord a => a -> a -> Bool`||
 |`+` `-` `*`|`Num a => a -> a -> a`||
@@ -25,5 +25,5 @@
 |`=<<`|`Monad m => (a -> m b) -> m a -> m b`|"Monad function application"  <br>`(=<<) = flip (>>=)`|
 |`.`|`(b -> c) -> (a -> b) -> a -> c`|Function composition|
 |`$ $!`|`(a -> b) -> a -> b`|Function application operator.  <br>`$!` will evaluate the argument first (to WHNF).|
-|`++`|`[a] -> [a] -> [a]`|List concatenation|
-|`!!`|`[a] -> Int -> a`|O(n) linked list indexing|
+|`++`  |`[a] -> [a] -> [a]`|List concatenation|
+|`!!`  |`[a] -> Int -> a`|O(n) linked list indexing|
