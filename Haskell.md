@@ -1,6 +1,11 @@
 # Comments
 # Functions
 
+```haskell
+sum x y z = x+y+z
+
+```
+
 # Operators
 
 | Operator      | Type                                       | Notes                                                                               |
