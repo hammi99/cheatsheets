@@ -2,8 +2,8 @@
 # Functions
 
 ```haskell
-sum x y z = x+y+z
-
+sum x y z = x+y+z   -- definition
+sum 1 2 3           -- application
 ```
 
 # Operators
