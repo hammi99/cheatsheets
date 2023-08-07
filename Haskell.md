@@ -2,6 +2,7 @@
 # Functions
 
 ```haskell
+sum :: Int -> Int -> Int -> Int
 sum x y z = x+y+z   -- definition
 sum 1 2 3           -- application
 ```
