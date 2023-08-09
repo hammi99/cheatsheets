@@ -2,10 +2,10 @@
 # Functions
 
 ```haskell
-sum :: Int -> Int -> Int -> Int   -- type definition
-sum :: Int a => a -> a -> a -> a  -- type definition using type variables
-sum x y z = x+y+z                 -- definition
-sum 1 2 3                         -- application
+add :: Int -> Int -> Int   -- type definition
+add :: Int a => a -> a -> a  -- type definition using type variables
+add x y z = x+y+z                 -- definition
+add 1 2 3                         -- application
 ```
 
 # Operators
