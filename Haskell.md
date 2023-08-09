@@ -14,7 +14,7 @@ add 1 2 3                    -- application
 | :-----------: | :----------------------------------------- | :---------------------------------------------------------------------------------: |
 |`&&` \|        |`Bool -> Bool -> Bool`                      | AND, OR                                                                             |
 |`==` `/=`      |`Eq a => a -> a -> Bool`                    | Value equality.                                                                     |
-|`< >` `<=` `>=`|`Ord a => a -> a -> Bool`                   |                                                                                     |
+|`<` `>` `<=` `>=`|`Ord a => a -> a -> Bool`                   |                                                                                     |
 |`+` `-` `*`    |`Num a => a -> a -> a`                      |                                                                                     |
 |unary `-`      |`Num a => a -> a`                           | Same as `negate`                                                                    |
 |`/`            |`Fractional a => a -> a -> a`               | For integer division use `div`                                                      |
